@@ -1,0 +1,62 @@
+.createPost {
+    position: relative;
+    margin: 18px;
+    border: 1px solid black;
+    width: 480px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.createPostHeader {
+    display: flex;
+    align-items: center;
+}
+
+.createPostInput {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.createPostProfImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.createPostBottom {
+    margin: 8px 6px 0px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createPostBottom button {
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 0px 22px 0px 22px;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+#fileIcon {
+    display: none;
+}
+
+.fileIcon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
